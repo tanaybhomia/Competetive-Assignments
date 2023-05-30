@@ -8,4 +8,4 @@ I have been trying to be as consistent as possible with competetive programming 
 - VSCODE 
 - GEDIT 
 - KITTY *terminal*
-- Website - [CodeChef](https://www.codechef.com/)
+- Website - [CodeChef](https://www.codechef.com/users/tanay_bhomia)
