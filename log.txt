@@ -1,0 +1,32 @@
+May 18, 2023
+1. https://www.codechef.com/problems/APPLEORANGE | 1040
+2. https://www.codechef.com/problems/AIRLINE | 1042
+3. https://www.codechef.com/problems/ZEROSTRING | 1042
+
+May 19, 2023
+1. https://www.codechef.com/problems/EPANLNK | 1044
+2. https://www.codechef.com/problems/WEIGHTBL | 1045
+
+May 20, 2023
+1. https://www.codechef.com/problems/CHEFSTUD | 1047
+
+May 21, 2023
+1. https://www.codechef.com/problems/ATTENDU | 1053
+
+May 22, 2023
+1. https://www.codechef.com/problems/CNDLOVE | 1054
+
+May 23, 2023
+1. https://www.codechef.com/problems/EASYPERM | 1057
+2. https://www.codechef.com/problems/EQCARDGAME | 1058
+3. https://www.codechef.com/problems/CFRTEST | 1061
+4. https://www.codechef.com/problems/FODCHAIN | 1062
+
+May 24, 2023
+1. https://www.codechef.com/problems/LOSTWKND | 1063 
+2. https://www.codechef.com/problems/MASKPOL | 1064
+
+May 25, 2023
+1. https://www.codechef.com/problems/STRP | 1065
+2. https://www.codechef.com/problems/ELEVSTRS | 1066
+
