@@ -7,4 +7,5 @@ I have been trying to be as consistent as possible with competetive programming 
 ## What I use 
 - VSCODE 
 - GEDIT 
+- KITTY *terminal*
 - Website - [CodeChef](https://www.codechef.com/)
