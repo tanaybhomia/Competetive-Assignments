@@ -12,7 +12,14 @@ I have been trying to be as consistent as possible with competetive programming 
 
 ## Some of my favourite problems that I have solved 
 
-1. ![Matches](Images/bombthebase.png)
-2. ![Bomb the Base](Images/bombthebase.png)
-3. ![WA Test Cases](Images/watestcases.png)
-4. ![Snapchat Streaks](Images/snapchatstreaks.png)
+1. Matches 
+![Matches](Images/matches.png)
+
+2. Bomb the Base
+![Bomb the Base](Images/bombthebase.png)
+
+3. WA Test Cases
+![WA Test Cases](Images/watestcases.png)
+
+4. Snapchat Streaks
+![Snapchat Streaks](Images/snapchatstreaks.png)
