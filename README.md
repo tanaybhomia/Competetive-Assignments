@@ -5,7 +5,9 @@ I have been trying to be as consistent as possible with competetive programming 
 
 
 ## What I use 
-- VSCODE 
-- GEDIT 
-- KITTY *terminal*
+- VsCode  
+- Gedit 
+- Kitty *terminal*
 - Website - [CodeChef](https://www.codechef.com/users/tanay_bhomia)
+
+## Some of my favourite problems that I have solved 
