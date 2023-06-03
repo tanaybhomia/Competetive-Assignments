@@ -39,5 +39,6 @@ int main()
 			}
 		}
 		cout<<finalans<<endl;
+		finalans = 0;
 	}
 }

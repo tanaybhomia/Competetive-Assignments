@@ -30,3 +30,13 @@ May 25, 2023
 1. https://www.codechef.com/problems/STRP | 1065
 2. https://www.codechef.com/problems/ELEVSTRS | 1066
 
+May 26, 2023
+1. https://www.codechef.com/problems/COVID_19 | 1077
+2. https://www.codechef.com/problems/DIGSMPAR | 1077
+3. https://www.codechef.com/problems/UWCOI20A | 1078
+4. https://www.codechef.com/problems/CUTBOARD | 1081
+5. https://www.codechef.com/problems/TTENIS | 1085
+6. https://www.codechef.com/problems/MAGICHF | 1088
+7. https://www.codechef.com/problems/DANOW
+
+
