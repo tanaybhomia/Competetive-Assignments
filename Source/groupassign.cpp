@@ -1,29 +1,43 @@
 #include <iostream>
 using namespace std;
-int main()
-{
-	int t;
-	cin>>t;
-	while(t--)
-	{
-		int n,r,first,last,i;
-				
-		cin>>n>>r;
-		first = 1;
-		last = 2*n;
-		
-		for (i=1;i<=n;i++)
-		{
-			if (first == r)
-			{
-				cout<<last<<endl;
-			}
-			else if (last == r)
-			{
-				cout<<first<<endl;
-			}
-			first +=1
-			last -=1
-		}
-	}
+
+int main() {
+    int t;
+    cin >> t;
+
+    while (t--) {
+        int n;
+        cin >> n;
+        int arr[n];
+
+        for (int i = 0; i < n; i++) {
+            cin >> arr[i];
+        }
+
+        bool flag = true;
+
+        for (int i = 0; i < n; i++) {
+            int temp = arr[i];
+            int count = 0;
+
+            for (int j = 0; j < n; j++) {
+                if (temp == arr[j]) {
+                    count++;
+                }
+            }
+
+            if (temp != count) {
+                flag = false;
+                break;
+            }
+        }
+
+        if (flag) {
+            cout << "YES" << endl;
+        } else {
+            cout << "NO" << endl;
+        }
+    }
+
+    return 0;
 }
