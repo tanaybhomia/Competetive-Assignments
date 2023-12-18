@@ -6,7 +6,8 @@ int main(){
 	while (t){
 		cin>>x;
 		rem = x%10;
-		while (x>9){
+		while (x>9)
+		{
 			x = x/10;
 		}
 		sum = x+rem;
