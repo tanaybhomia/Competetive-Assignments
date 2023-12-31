@@ -1,53 +1,39 @@
-// https://www.codechef.com/problems/CNDY
-// 1018
-
 #include <iostream>
+#include <unordered_map>
 using namespace std;
-int main()
-{
-	int t;
-	cin>>t;
-	while(t--)
-	{
-		int n , temp = 0 , count = 0 , ans = 0 , j,i;
-		cin>>n;
-		int x = n*2;
-		int arr1[x];
-		for (i=0;i<x;i++)
-		{
-			cin>>arr1[i];
-		}
-		if (n<2)
-		{
-			cout<<"Yes"<<endl;
-		}
-		else
-		{
-			for (i=0;i<x;i++)
-			{
-				count = 0;
-				temp = arr1[i];
-				for (j=i+1;j<x;j++)
-				{
-					if (temp == arr1[j])
-					{
-						count++;
-						if (count>=3)
-						{
-							ans = 1;
-							break;
-						}
-					}
-				}
-			}
-			if (ans == 0)
-			{
-				cout<<"Yes"<<endl;
-			}
-			else if (ans == 1)
-			{
-				cout<<"No"<<endl;
-			}	
-		}
-	}
+
+int main() {
+    int t;
+    cin >> t;
+
+    while (t--) {
+        int n;
+        cin >> n;
+        int x = n * 2;
+        int arr1[x];
+
+        // Count the occurrences of each element using an unordered_map
+        unordered_map<int, int> frequency;
+        bool found = false;
+
+        for (int i = 0; i < x; i++) {
+            cin >> arr1[i];
+            frequency[arr1[i]]++;
+
+            // If any element appears more than twice, set found to true and break
+            if (frequency[arr1[i]] > 2) {
+                found = true;
+                break;
+            }
+        }
+
+        // Output based on the found flag
+        if (found || n < 2) {
+            cout << "No" << endl;
+        } else {
+            cout << "Yes" << endl;
+        }
+    }
+
+    return 0;
 }

@@ -28,17 +28,25 @@ int main()
 		operation o;
 		int sum = o.getsum(n);
 		int finalans;
-		while(sum%2 == 0)
+
+		if (n==1)
 		{
-			n = n+1;
-			sum = o.getsum(n);
-			if (sum%2 != 0)
-			{
-				finalans = n;
-				break;
-			}
+			cout<<2<<endl;
 		}
-		cout<<finalans<<endl;
-		finalans = 0;
+		else 
+		{
+			while(sum%2 == 0)
+			{
+				n = n+1;
+				sum = o.getsum(n);
+				if (sum%2 != 0)
+				{
+					finalans = n;
+					break;
+				}
+			}
+			cout<<finalans<<endl;
+			finalans = 0;
+		}
 	}
 }

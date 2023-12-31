@@ -6,8 +6,9 @@ int main()
 	cin>>t;
 	while(t--)
 	{
-		int n,x;
-		cin>>n>>x;
+		string s1,s2;
+		cin>>s1;
+		cin>>s2;
 		
 	}
 }

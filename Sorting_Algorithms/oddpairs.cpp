@@ -6,8 +6,8 @@ int main()
 	cin>>t;
 	while(t--)
 	{
-		int n,x;
-		cin>>n>>x;
-		
+		long long n;
+		cin>>n;
+		cout<<((n*n)/2)<<endl;
 	}
 }
