@@ -11,9 +11,6 @@ int main()
 	{
 		int n,x,s;
 		cin>>n>>x>>s;
-		// n number of boxes
-		// x gold coin in xith box
-		// s number of swaps 
 		
 		int a,b,ans = x;
 		for (int i = 1;i<=s;i++)
